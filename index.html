@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Des esquisses sur ma personnalité et mes préférences">
+    <meta name="keywords" content="portrait, personnalité, préférences">
+
+ <!-- Titre de la page et lien vers la feuille de style -->
+    <title>Portrait Chinois</title>
+
+ <!-- Titre de la page et lien vers la feuille de style, json et js -->
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="data.json"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+<!-- Liens vers les polices Google et l'icône -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,700;1,400&display=swap"
+		rel="stylesheet">
+    <link rel="icon" href="img/favicon.png" type="img/favicon">
+
+</head>
+
+<body>
+
+ <!-- Conteneur principal de la page -->
+    <div class="wrapper">
+         <!-- Conteneur pour l'effet de texte défilant -->
+        <div class="typing-demo">
+            <h1>Portrait Chinois d'Alyssa</h1>
+        </div>
+    </div>
+
+<!-- Conteneur pour la liste d'images analogiques -->
+<div class="liste-imagesAnalogies">
+
+
+<!-- Conteneur pour chaque élément du portrait -->
+<div class="portrait-container">
+    <div class="image-container"></div>
+    <div class="text-container">
+        <br>
+        <br>
+        <div class="liste-analogies"><h2 id="analogieTitre"></h2></div>
+    </div>    
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- Formulaire pour les préférences personnelles -->
+<form>
+    
+        <legend>Et vous ?</legend>
+         <!-- Champs de saisie -->
+
+        <p>
+            <label class="label" for="text">Si j'étais...</label><br>
+            <input id="text" placeholder="une musique" type="text" size="50px" class="w100" required>
+        </p>
+
+        <p>
+            <label class="label" for="text">Je serais...</label><br>
+            <input id="text" placeholder="Chanel de Frank Ocean" type="text" size="50px" class="w100" required>
+        <p>
+
+            <label class="label" for="text">Pourquoi ?</label> <br>
+            <textarea rows="3" cols="40" id="text" required></textarea >
+        </p>
+
+        <label class="label" for="text">Lien de l'image</label><br>
+            <input id="text" placeholder="L'URL ici" type="text" size="50" class="w100" required>
+        <p>
+
+        <p>
+            <label class="label" for="email">Email<span ></span></label><br>
+            <input id="email" placeholder="Votre mail ici" type="email" size="50" class="w100" required>
+            </p>
+        </p>
+
+         <!-- Bouton de soumission du formulaire -->
+        <p class="right">
+            <input type="submit" value="Envoyer">
+        </p>
+
+    </form>
+
+    <!-- Pied de page avec les mentions légales -->
+    <footer>
+        <div class="legal-notice" id="legalNotice">
+            Mentions Légales
+        </div>
+        <div class="legal-content" id="legalContent">
+            <p>Responsable éditoriale, conception graphique et développement : Alyssa KARAHAN, étudiante en MMI à l'université Gustave Eiffel</p>
+            <p>Hébergement : Université Gustave Eiffel</p>
+            <p>5 boulevard Descartes - Champs-sur-Marne - 77454 Marne-la-Vallée Cedex2 - Téléphone : 33(1).60.95.75.00 - Fax : 33(1).60.95.75.75</p>
+            <p>Création d'images et icônes par Alyssa KARAHAN</p>
+            <p>L'adresse e-mail et l'adresse IP sont collectées pour générer l'analogie personnalisée. Pour toute question concernant la collecte et le traitement de vos données par l'UGE, veuillez contacter Philippe Gambette à l'adresse suivante : <b>philippe.gambette@univ-eiffel.fr</b>. Les fichiers détenus par l'UGE contenant des données personnelles ne seront jamais transmis à des tiers ni ne feront l'objet d'une commercialisation.</p>
+            <p>©2023 Tous droits réservés par Alyssa KARAHAN.</p>
+        </div>
+        
+    </footer>
+</body>
+</html>

@@ -1,0 +1,189 @@
+*
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Style de base pour le corps de la page */
+body {
+    background-image: url("img/fondreel.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Kalnia', serif;
+}
+
+/* Styles spécifiques à la structure HTML */
+
+html {
+    scroll-snap-type: y mandatory;
+    position: absolute;
+}
+
+/* Styles pour un conteneur de classe "holdingcontainer" */
+.holdingcontainer {
+width: 100%;
+display: flex ;
+}
+
+/* Styles pour un conteneur de classe "wrapper" */
+.wrapper {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  /* Styles pour l'effet de défilement du texte dans .typing-demo */
+  .typing-demo {
+    width: 88ch;
+    animation: typing 1.5s steps(20), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid;
+    font-size: 1,5em;
+    color: white;
+  }
+  
+  /* Animation de défilement du texte */
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  /* Animation de clignotement */
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  
+/* Styles pour les titres h1 et h3 */
+h1 {
+    font-size: 4em;
+    color: white;
+}
+
+h3 {
+    font-size: 3em;
+    color: lightgrey;
+}
+
+/* Styles partagés entre h1, .element h2, h3 avec ombre de texte */
+h1, .element h2, h3 {
+    text-shadow: 0px 2px 10px black;
+}
+
+/* Styles spécifiques à .element h2 */
+.element h2 {
+    text-align: left;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-size: 2.7em; 
+    color: white; 
+}
+
+/* Styles pour .element-texte */
+.element-texte {
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
+    color: lightgrey;
+}
+
+/* Styles pour .element (conteneur global des éléments du portrait) */
+.element {
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 100vh; 
+}
+
+/* Styles pour les images à l'intérieur de .element */
+.element img {
+    max-width: 400px;
+    float: left;
+    margin-right: 150px;
+    margin-left: 150px;
+    transition: all 0.8s ease;
+}
+
+/* Effet de zoom sur l'image au survol de la souris */
+.element img:hover {
+    transform: scale(1.2); 
+}
+
+/* Styles pour le formulaire */
+form {
+    height: 100vh;
+    text-align: center;
+    font-size: 1.8em ;
+    color: lightgrey; 
+}
+
+/* Styles pour les champs de saisie */
+input {
+    width: 339px;
+    height: 30px;
+    text-align: center;
+}
+
+/* Styles pour le bouton de soumission du formulaire */
+input[type="submit"] {
+    font-family: 'Kalnia', serif;            
+    background-color: white;
+    border:none;
+    color: #373030;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    width: 100px;
+}
+
+/* Effet de changement de couleur au survol du bouton de soumission */
+input[type="submit"]:hover {
+    cursor: pointer;
+    color: lightgrey;
+    transition: color 0.8s ease;
+}
+
+/* Styles pour la légende du formulaire */
+legend {
+    font-size: 3em;
+    color: white;
+}
+
+/* Styles pour la rubrique "Mentions Légales" */
+.legal-notice {
+    cursor: pointer;
+    color: white;
+    font-size: 3em;
+}
+
+/* Styles pour le contenu des "Mentions Légales" */
+.legal-content {
+    display: none;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
+    color: lightgrey; 
+}
+
+/* Styles pour le pied de page */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}

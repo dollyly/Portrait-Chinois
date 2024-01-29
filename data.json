@@ -1,0 +1,48 @@
+
+    [
+        {
+        "analogies": "un album de musique",
+        "valeurAnalogies": "Verpestine de Björk",
+        "texte": "Vespertine est mon album préféré de Björk. Cela est parce que, selon moi, sa voix n'a jamais été aussi magnifique. Glaciale, puissante, presque semblable à un soupir. En comparaison avec ses autres albums, celui-ci se distingue complètement par son ambiance beaucoup plus calme, cotonneuse et réconfortante. C'est cela qui m'a le plus marqué et touché pendant son écoute.",
+        "Image": "img/Verpestine.jpg",
+        "id": "section1"
+    },
+    {
+        "analogies": "un personnage de fiction",
+        "valeurAnalogies": "Haku",
+        "texte": "Provenant du film d'animation « Le Voyage de Chihiro », Haku est un personnage qui m'a profondément touché dès la première fois que je l'ai découvert. À la fois bienveillant et solidaire, il dégage également une certaine confiance et bienveillance. Inconsciemment, je me suis souvent identifié à ce personnage. Quand je revisite ce film pour la énième fois, il m'apporte toujours un certain réconfort, tout comme plusieurs autres personnages du studio Ghibli. Coïncidence ?",
+        "Image": "img/Haku.jpg",
+        "id": "section2"
+    },
+    {
+        "analogies": "un film",
+        "valeurAnalogies": "Matrix",
+        "texte": "Matrix est l'un des films qui m'a le plus marqué, que ce soit par son intrigue, ses personnages ou son atmosphère. Le personnage principal, Neo, manifeste une soif immense d'apprendre sur notre monde, appelé « la matrice », et c'est cette curiosité qui m'a profondément touché. J'ai particulièrement apprécié la manière dont les scènes ont été agencées, créant une atmosphère captivante où l'on a l'impression de devenir le protagoniste, désireux de découvrir les mystères qui se cachent dans le monde qui l'entoure.",
+        "Image": "img/Matrix.jpg"
+    },
+    {
+        "analogies": "une infusion",
+        "valeurAnalogies": "la camomille",
+        "texte": "Cette préférence émane de ma volonté d'incarner une aura apaisante et relaxante au quotidien. Je m'efforce de faire transparaître mon désir de quiétude et de sérénité dans chacune de mes interactions, favorisant ainsi à créer une atmosphère à la fois paisible et authentique, tant pour moi que pour les autres.",
+        "Image" : "img/Camomille.jpg"
+    },
+    {
+        "analogies": "un pouvoir magique",
+        "valeurAnalogies": "la lévitation",
+        "texte": "Cette préférence découle probablement de mon désir de liberté, d'exploration et de transcendance des limites physiques, me permettant ainsi de m'élever au-dessus des contraintes terrestres et de découvrir de nouveaux horizons avec une légèreté et une perspective uniques. J'ai déjà rêvé plusieurs fois que cet événement se produisait, et c'était une sensation incroyable.",
+        "Image" : "img/Levitation.jpg"
+
+    },
+    {
+        "analogies": "un style architectural",
+        "valeurAnalogies": "le style gothique",
+        "texte": "Ma préférence pour le style gothique découle de ma fascination pour son esthétique élaborée, ses lignes ornées et la grandeur mystique qui émane de chaque détail. Ce style, traversant les époques, me parle d'une manière particulière, car il incarne une puissance évocatrice et une beauté intemporelle en accord avec mes propres goûts et aspirations esthétiques. La visite de lieux imprégnés de ces caractéristiques m'épate toujours autant.",
+        "Image" : "img/Archi.jpg"
+    },
+    {
+        "analogies": "un paysage",
+        "valeurAnalogies": "la montagne",
+       "texte": "Ce choix découle de ma résilience face aux défis, de ma solidité intérieure et de ma volonté de m'élever au-dessus des obstacles. J'ai toujours aimé la montagne, et le simple fait de l'apercevoir m'impressionne, en raison de la paix immense qu'elle émane. À l'image de la montagne, je m'efforce d'incarner une force tranquille et de développer la capacité de trouver la paix, même face aux difficultés rencontrées en cours de route.",
+        "Image" : "img/Montagne.jpg"
+    }
+    ]
